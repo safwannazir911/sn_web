@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+}
+
+.logo-name {
+  letter-spacing: 4px;
+  color: rgb(91, 154, 236) !important;
+  font-weight: bolder;
+  font-family: "Orbitron", sans-serif;
+}
+
+.dropdown-menu {
+  text-align: center;
+}
+
+nav {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+
+.header_section {
+  min-height: 400px;
+  height: auto;
+  text-align: center;
+  background-color: black;
+  padding: 100px;
+}
+.header_section p {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 40px;
+  margin-top: 4%;
+}
+
+.faq {
+  background-color: #212529;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 1812px;
+}
+.faq .faq-position {
+  position: absolute;
+  top: 375px;
+}
+.faq .faq-parent {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 70px 30px;
+  border-radius: 5px;
+  width: 60vw;
+  min-height: 40vh;
+}
+.faq .faq-parent h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+}
+.faq .faq-parent p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 28px;
+  margin-top: 50px;
+}
+.faq .faq-block {
+  padding: 40px;
+  margin: 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 90%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgb(48, 48, 48);
+}
+.faq span {
+  color: rgb(91, 154, 236);
+}
+
+.footer-section {
+  text-align: center;
+  background-color: black;
+  padding: 5PX;
+}
+.footer-section h1 {
+  letter-spacing: 4px;
+  color: rgb(91, 154, 236) !important;
+  font-weight: bolde;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 30px;
+}
+
+.social {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.social a {
+  text-decoration: none;
+}
+.social .link {
+  color: white;
+  padding: 20px 25px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+}
+.social #insta::after {
+  content: "";
+  display: inline-block;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  margin-left: 1px;
+  background-repeat: no-repeat;
+  background-image: url("../images/img7.svg");
+}
+.social #linkedin::after {
+  content: "";
+  display: inline-block;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  margin-left: 1px;
+  background-repeat: no-repeat;
+  background-image: url("../images/img8.svg");
+}
+.social #facebook::after {
+  content: "";
+  display: inline-block;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  margin-left: 5px;
+  background-repeat: no-repeat;
+  background-image: url("../images/img9.svg");
+}
+.social #mail::after {
+  content: "";
+  display: inline-block;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  margin-left: 5px;
+  background-repeat: no-repeat;
+  background-image: url("../images/img10.png");
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+}
+.copyright p {
+  color: rgb(197, 197, 197);
+  letter-spacing: 2px;
+}
+.copyright h1 {
+  font-size: small;
+}/*# sourceMappingURL=faq.css.map */
