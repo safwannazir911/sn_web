@@ -76,11 +76,17 @@ section.container p {
   padding: 30px;
   min-height: 550px;
   height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
 }
 
 .abilities-position {
   position: relative;
-  top: -87px;
+  top: -59px;
 }
 
 .abilities-block {
@@ -95,6 +101,7 @@ section.container p {
   margin-left: 150px;
   margin-right: 150px;
   border-radius: 5px;
+  min-width: 70vw;
 }
 
 .abilities-parent {
